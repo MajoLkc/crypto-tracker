@@ -1,0 +1,15 @@
+{
+  "appName": "Crypto Tracker",
+  "default": {
+    "availableLanguages": {
+      "en-GB": { "short": "EN", "full": "English" },
+      "sk-SK": { "short": "SK", "full": "Slovenský" }
+    },
+    "limits": {
+      "maxNumbers": {
+        "displayedCurrencies": 5,
+        "displayedTransactions": 10
+      }
+    }
+  }
+}
