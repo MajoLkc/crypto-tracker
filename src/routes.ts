@@ -1,0 +1,5 @@
+export const DASHBOARD = "/"
+export const LOGIN = "/login"
+export const FORBIDDEN = "/forbidden"
+export const NOT_FOUND = "/not-found"
+export const ERROR = "/error"
