@@ -1,10 +1,12 @@
+import Header from "../Header/Header"
+import "./App.less"
 
 function App() {
   return (
     <div>
-      Crypto app
+      <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
