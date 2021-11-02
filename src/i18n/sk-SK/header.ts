@@ -2,7 +2,7 @@
 export default {
   SubText: "Zaznamenaj všetky svoje krypto transakcie",
   Portfolio: "Portfólio",
-  NewPurchase: "Nová zmena",
+  NewPurchase: "Nová transakcia",
   Profile: "Profil",
   Logout: "Odhlásiť",
 }
