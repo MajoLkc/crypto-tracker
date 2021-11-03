@@ -2,9 +2,14 @@
 export default {
   LoginText: "Login into Crypto Tracker",
   Email: "E-mail",
-  InsertEmail: 'Insert your email',
+  InsertEmail: "Insert your email",
   Password: "Password",
-  InsertPassword: 'Insert your password',
+  InsertPassword: "Insert your password",
   Login: "Login",
-  LoginErrorMsg: "The email or password entered is incorrect.",
+  RememberLabel: "Remember me",
+  Errors: {
+    NoPasswordErrorMsg: "Please input your password!",
+    NoEmailErrorMsg: "Please input your email!",
+    LoginErrorMsg: "The email or password entered is incorrect.",
+  },
 }
