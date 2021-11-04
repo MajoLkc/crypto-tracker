@@ -14,7 +14,7 @@ const Header = () => {
       className="site-page-header"
       subTitle={t("header:SubText")}
       extra={[
-        <Button key="2">{t("header:NewPurchase")}</Button>,
+        <Button key="2">{t("NewPurchase")}</Button>,
         <Button key="1" type="primary">
           {t("header:Portfolio")}
         </Button>,
