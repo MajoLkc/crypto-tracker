@@ -4,27 +4,30 @@ import { useTranslation } from "react-i18next"
 const DropdownItems = () => {
   const { t } = useTranslation(["header"])
 
+  const setLanguageHandler = (val: any) => {
+    const selectedLanguage = val.target.id
+    return selectedLanguage
+  }
+
   const dropdownItems = [
     {
-      key: "profile",
-      href: "/profile",
-      text: t("header:Profile"),
-      rel: "noopener noreferrer",
+      key: "sk",
+      id: "ENG",
+      text: t("Languages.English"),
     },
     {
-      key: "logout",
-      href: "/",
-      text: t("header:Logout"),
-      rel: "noopener noreferrer",
+      key: "en",
+      id: "SVK",
+      text: t("Languages.Slovak"),
     },
   ]
   return (
     <Menu>
       {dropdownItems.map((item) => (
-        <Menu.Item>
-          <a href={item.href} key={item.key} rel={item.rel}>
+        <Menu.Item key={item.key}>
+          <span id={item.id} onClick={setLanguageHandler}>
             {item.text}
-          </a>
+          </span>
         </Menu.Item>
       ))}
     </Menu>
