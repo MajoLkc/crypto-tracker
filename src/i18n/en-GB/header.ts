@@ -5,4 +5,8 @@ export default {
   NewPurchase: "New exchange",
   Profile: "Profile",
   Logout: "Logout",
+  Languages: {
+    English: "English",
+    Slovak: "Slovak",
+  },
 }

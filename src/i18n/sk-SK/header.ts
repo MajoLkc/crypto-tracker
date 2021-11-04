@@ -5,4 +5,8 @@ export default {
   NewPurchase: "Nová transakcia",
   Profile: "Profil",
   Logout: "Odhlásiť",
+  Languages: {
+    English: "Anglický",
+    Slovak: "Slovenský",
+  },
 }
