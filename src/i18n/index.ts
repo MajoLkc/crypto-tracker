@@ -11,8 +11,8 @@ const config: InitOptions = {
     'sk-SK': sk,
   },
   debug,
-  lng: 'en-GB',
-  fallbackLng: 'en-GB',
+  lng: 'sk-SK',
+  fallbackLng: 'sk-SK',
   keySeparator: '.',
   interpolation: {
     escapeValue: false
