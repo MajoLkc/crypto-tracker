@@ -14,10 +14,12 @@ const Header = () => {
       className="site-page-header"
       subTitle={t("header:SubText")}
       extra={[
-        <Button key="2">{t("NewPurchase")}</Button>,
-        <Button key="1" type="primary">
+        <Button key="4">{t("NewPurchase")}</Button>,
+        <Button key="3" type="primary">
           {t("header:Portfolio")}
         </Button>,
+        <Button key="2">{t("header:Profile")}</Button>,
+        <Button key="1" type="link">{t("header:Logout")}</Button>,
         <DropdownMenu key="more" />,
       ]}
     ></PageHeader>
